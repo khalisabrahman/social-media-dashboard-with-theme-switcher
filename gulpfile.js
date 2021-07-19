@@ -6,8 +6,8 @@ const autoprefixer = require('autoprefixer');
 const cssnano = require('cssnano');
 const babel = require('gulp-babel');
 const terser = require('gulp-terser');
-const browserSync = require('browser-sync');
-const brosersync = require('browser-sync').create();
+const browserSync = require('browser-sync').create();
+
 
 // Use dart-sass for @use
 sass.compiler = require('dart-sass');
